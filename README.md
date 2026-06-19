@@ -206,11 +206,25 @@ If you package or distribute AWS-LC, or use AWS-LC as part of a large multi-user
 | Platform | Architecture |
 |----------|--------------|
 | Fedora-34 | x64 |
+| al2 | x64 |
+| macOS-14 | x64, arm64 |
 | manylinux2014 | x64, x86 |
+| openSUSE-leap | x64 |
+| rhel8 | x64 |
+| ubuntu-24.04 | x86 |
+| windows 11 | x64, x86 |
 
 ## Tier 2 — Supported (Not Tested in CI)
 
 | Platform | Architecture |
 |----------|--------------|
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| clang | 6+ | All |
+| gcc | 4.8+ | All |
+| msvc | 17 | windows |
 
 <!-- PLATFORM_SUPPORT_END -->
